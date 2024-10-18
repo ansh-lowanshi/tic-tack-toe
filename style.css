@@ -1,6 +1,9 @@
 .main {
     text-align: center;
 }
+.head{
+    text-color: red;
+}
 
 .container{
     height: 55vh;
