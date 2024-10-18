@@ -1,0 +1,47 @@
+.main {
+    text-align: center;
+}
+
+.container{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.game{
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5vmin;
+    
+
+}
+
+.box{
+    height: 15vh;
+    width: 15vh;
+    font-size: 8vh;
+    border-radius: 2rem;
+    color: blueviolet;
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgba(0 ,0 , 1, 0.1);
+
+}
+
+.reset{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 0.8rem;
+    border: none;
+    box-shadow: 0 0 0 0.1rem rgba(0 ,0 , 1, 0.1);
+
+}
+.winner{
+    color: blueviolet;
+    padding: 1.8rem;
+    font-size: 2rem;
+}
